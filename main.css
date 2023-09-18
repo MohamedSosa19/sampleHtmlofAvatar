@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+
+*{
+    font-family: 'Ubuntu',sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    color: #fff;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body{
+    background-image: linear-gradient(#01022d,#000);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cointainer{
+    background: linear-gradient(to right , #071018 30%,#03033785),
+    url(download.webp) ;
+    background-size: cover;
+    width: 90%;
+    height: 80%;
+}
+.cointainer:hover{
+    background: linear-gradient(to right ,#071018,transparent),
+    url(download.webp) ;
+    background-size: cover;
+}
+
+.navbar a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+}
+.navbar .menu li{
+    display: inline-block;
+    margin: 0px 10px;
+   
+}
+.navbar .menu li:hover{
+    border-bottom:1px solid white ;
+    cursor: pointer;
+}
+
+.content{
+  
+    width: 50%;
+    margin-top: 50px;
+    padding: 30px;
+}
+.content h2{
+
+    font-size: 100px;
+    font-weight: 500;
+    color: #fff;
+
+}
+.content p{
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.content button {
+    color: #000;
+    background-color: #fff;
+    margin-top: 15px;
+    padding: 10px 15px;
+    border-radius: 30px;
+}
+.content button:hover{
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
